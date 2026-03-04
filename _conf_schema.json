@@ -1,0 +1,26 @@
+{
+    "tts_enabled": {
+        "description": "是否启用TTS功能",
+        "hint": "开启后可以使用「语音」命令将回复文本转换为语音",
+        "type": "bool",
+        "default": false
+    },
+    "tts_api_url": {
+        "description": "TTS API地址",
+        "hint": "TTS API的地址，例如 http://127.0.0.1:9880",
+        "type": "string",
+        "default": "http://127.0.0.1:9880"
+    },
+    "ref_audio_path": {
+        "description": "参考音频文件",
+        "hint": "GPT-SoVITS参考音频文件，支持格式：wav, mp3, ogg, m4a, flac。时长建议在3-10秒之间，只需要一个。默认为插件自带音频",
+        "type": "file",
+        "accept": [".wav", ".mp3", ".ogg", ".m4a", ".flac"]
+    },
+    "prompt_text": {
+        "description": "参考音频文本",
+        "hint": "参考音频对应的文本内容，用于提高合成质量",
+        "type": "string",
+        "default": "你听到了岁主的声音？那你能告诉我，我是祂的共鸣者吗？"
+    }
+}

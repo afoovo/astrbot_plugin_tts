@@ -1,0 +1,6 @@
+name: astrbot_plugin_tts
+display_name: TTS语音插件
+desc: 使用GPT-SoVITS的文本转语音插件，支持多种音色和语种
+help: 使用「语音」命令将文本转换为语音，「语音回复」命令将回复转换为语音
+version: v1.0.0
+author: afo
